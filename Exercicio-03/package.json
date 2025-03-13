@@ -1,0 +1,17 @@
+{
+  "name": "exercicio-03",
+  "version": "1.0.0",
+  "main": "Exercicio-03.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "moment": "^2.30.1"
+  },
+  "description": ""
+}
