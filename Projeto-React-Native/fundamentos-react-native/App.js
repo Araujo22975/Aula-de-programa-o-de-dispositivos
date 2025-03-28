@@ -2,12 +2,19 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import PrimeiroComponente from './componentes/PrimeiroComponente';
 import SegundoComponente from './componentes/SegundoComponente';
+import Atleta from './componentes/Atleta';
+
+
 export default function App() {
   return (
     <View style={styles.container}>
       
-    <PrimeiroComponente />
-    <SegundoComponente />
+
+<Atleta/>
+
+
+     {/* <PrimeiroComponente /> */}
+    {/* <SegundoComponente /> */}
 
 
 
