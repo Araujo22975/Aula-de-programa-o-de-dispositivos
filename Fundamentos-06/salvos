@@ -1,0 +1,83 @@
+<!-- import { StatusBar } from 'expo-status-bar'; -->
+<!-- import { ScrollView, StyleSheet, View } from 'react-native'; -->
+<!-- import { PaperProvider, Card, Title, Paragraph, Text, Button, Divider } from 'react-native-paper'; -->
+
+
+
+
+<!-- export default function App() { -->
+
+  <!-- return ( -->
+    <!-- <PaperProvider> -->
+
+      <!-- <ScrollView> -->
+
+      <!-- <View style={styles.container}> -->
+        <!-- <StatusBar style="auto" /> -->
+
+<!-- <Button mode= 'contained'>Clique Aqui</Button> -->
+<!-- <Button mode= 'contained-tonal'>Clicar</Button> -->
+<!-- <Button mode= 'elevated'>Clicar</Button> -->
+<!-- <Button mode= 'outlined'>Clicar</Button> -->
+<!-- <Button mode= 'text'>Clicar</Button> -->
+
+
+
+<!-- <Text variant='bodyLarge'>Um Texto qualquer</Text> -->
+<!-- <Divider style={{width: '250%'}}/> -->
+<!-- <Text variant='displayLarge'>Um Texto qualquer</Text> -->
+<!-- <Text variant='headlineLarge'>Um Texto qualquer</Text> -->
+<!-- <Text variant='labelLarge'>Um Texto qualquer</Text> -->
+<!-- <Text variant='titleLarge'>Um Texto qualquer</Text> -->
+
+
+        <!-- <Card style={{margin: 10}}> -->
+          <!-- <Card.Title title="Teste"> -->
+
+          <!-- </Card.Title> -->
+          <!-- <Card.Content> --> 
+            <!-- <Title>Davi é gay</Title> -->
+            <!-- <Paragraph> todos nois concordamos </Paragraph> -->
+
+          <!-- </Card.Content> -->
+
+        <!-- </Card> -->
+
+        <!-- <Card> -->
+        <!-- <Card.Content> -->
+
+            <!-- <Title>Um Titulo qualquer</Title> -->
+            <!-- <Paragraph> Eu eu eu eu eu eu eu eu eu eu eu eu </Paragraph> -->
+
+        <!-- </Card.Content> -->
+
+      <!-- </Card> -->
+
+      <!-- <Card> -->
+        <!-- <Card.Content> -->
+
+            <!-- <Title>Um Titulo qualquer</Title> -->
+            <!-- <Paragraph> Eu eu eu eu eu eu eu eu eu eu eu eu </Paragraph> -->
+
+        <!-- </Card.Content> -->
+
+      <!-- </Card> -->
+
+
+
+
+
+      <!-- </View> -->
+      <!-- </ScrollView> -->
+    <!-- </PaperProvider> -->
+  <!-- ); -->
+<!-- } -->
+
+<!-- const styles = StyleSheet.create({ -->
+  <!-- container: { -->
+    <!-- flex: 1, -->
+    <!-- backgroundColor: '#fff', -->
+    <!-- alignItems: 'center', -->
+    <!-- justifyContent: 'center', -->
+  <!-- }, -->
+<!-- }); -->
