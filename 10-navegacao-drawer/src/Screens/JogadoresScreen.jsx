@@ -65,27 +65,27 @@ export default function JogadoresScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 25,
-    backgroundColor: 'red',
+    paddingTop: 0,
+    backgroundColor: 'gray',
   },
   card: {
     width: 400,
-    padding: 10,
+    padding: 15,
     marginRight: 10,
-    backgroundColor: 'white',
+    backgroundColor:'gray',
     borderRadius: 10,
     alignItems: 'center',
   },
   imagem: {
-    width: 120,
-    height: 120,
-    borderRadius: 60,
+    width: 220,
+    height: 250,
+    borderRadius: 40,
     marginBottom: 10,
   },
   nome: {
     fontWeight: 'bold',
-    fontSize: 16,
-    marginBottom: 5,
+    fontSize: 24,
+    marginBottom: 0,
   },
 });
 

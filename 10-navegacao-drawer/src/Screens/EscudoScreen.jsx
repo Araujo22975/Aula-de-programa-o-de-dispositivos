@@ -1,4 +1,5 @@
-import { StyleSheet, Text, View, FlatList, Image } from 'react-native'
+import { StyleSheet,View, FlatList, Image } from 'react-native'
+import { Text } from 'react-native-paper';
 import React from 'react'
 
 export default function EscudoScreen() {
@@ -17,7 +18,7 @@ export default function EscudoScreen() {
     <View style={styles.container}>
     <Image source={{ uri: time.escudo }} style={styles.escudo} />
     <Text style={styles.nome}>{time.nome}</Text>
-    <Text>Fundação: {time.fundacao}</Text>
+    <Text variant='titleMedium' style={{fontWeight:"bold"}}>Fundação: {time.fundacao}</Text>
     <Text>Estádio: {time.estadio}</Text>
     <Text>Mascote: {time.mascote}</Text>
     <Text>Cores: {time.cores.join(' e ')}</Text>
@@ -28,18 +29,18 @@ export default function EscudoScreen() {
 const styles = StyleSheet.create({
 container: {
   flex: 1,
-  paddingTop: 50,
+  paddingTop: 180,
   paddingHorizontal: 20,
   alignItems: 'center',
-  backgroundColor: '#fff',
+  backgroundColor: 'white',
 },
 escudo: {
-  width: 100,
+  width: 130,
   height: 100,
   marginBottom: 20,
 },
 nome: {
-  fontSize: 24,
+  fontSize: 36,
   fontWeight: 'bold',
   marginBottom: 10,
 },
