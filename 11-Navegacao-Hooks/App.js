@@ -2,18 +2,20 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Nome from './src/components/Nome'
-import Volume from './src/components/Volume'
-import NumeroAleatorio from './src/components/NumeroAleatorio';
+
+import MegaSenaScreen from './Screens/MegaSenaScreen';
+import JogoDoBichoScreen from './Screens/JogoDoBichoScreen';
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
 
-<Nome />
-<Volume />
-<NumeroAleatorio />
+
+<JogoDoBichoScreen/>
+<MegaSenaScreen/>
 
 
     </View>
