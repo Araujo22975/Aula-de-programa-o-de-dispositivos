@@ -25,9 +25,9 @@ export default function App() {
             options={{
               title: 'Tela de Início',
               headerTitleAlign: 'center',
-              headerTintColor: 'white',
+              headerTintColor: 'black',
               headerStyle: {
-                backgroundColor: 'tomato'
+                backgroundColor: 'red'
               },
               tabBarIcon: ({ color, size }) => <Ionicons name='home' color={color} size={size} />
             }}
