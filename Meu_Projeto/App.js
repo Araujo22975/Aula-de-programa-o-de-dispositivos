@@ -4,11 +4,13 @@ import React from 'react'
 import { PaperProvider } from 'react-native-paper'
 import { Ionicons } from '@expo/vector-icons'
 
-import MenuInicial from './src/screens/MenuInicial'
-import Usuario from './src/screens/Usuario'
-import SobreNos from './src/screens/SobreNos'
-import Cadastro from './src/screens/Cadastro'
-import Noticias from './src/screens/Noticias'
+import MenuInicial from './src/screen/MenuInicial'
+import Usuario from './src/screen/Usuario'
+import Jogadores from './src/screen/Jogadores'
+import Cadastro from './src/screen/Cadastro'
+import Noticias from './src/screen/Noticias'
+
+
 
 
 const Tab = createBottomTabNavigator()
@@ -52,10 +54,10 @@ export default function App() {
             }}
             />
 <Tab.Screen
-            name='Sobre Nós'
-            component={SobreNos}
+            name='Jogadores'
+            component={Jogadores}
             options={{
-              title: 'Sobre Nós',
+              title: 'Jogadores do Flamengo',
               tabBarIcon: ({ color, size }) => <Ionicons name='information-outline' color={color} size={size} />
             }}
             />
