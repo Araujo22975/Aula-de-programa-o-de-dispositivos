@@ -1,6 +1,9 @@
 import React from 'react';
 import { View, Text, FlatList, StyleSheet, Image } from 'react-native';
 import { Button } from 'react-native-paper';
+import MenuInicial from './MenuInicial';
+import { Ionicons } from '@expo/vector-icons';
+
 
 const jogadoresFlamengo = [
   {
@@ -82,6 +85,7 @@ const jogadoresFlamengo = [
 ];
 
 
+
 const Item = ({ nome, posicao, numero, imagem }) => (
   <View style={styles.item}>
     <Image source={{ uri: imagem }} style={styles.foto} />
@@ -113,16 +117,11 @@ const App = () => {
         keyExtractor={item => item.id}
       />
 
-      <Button
-              mode="contained-tonal"
-              onPress={() => navigation.navigate('')}
-              style={styles.button}
-            >
-              Ir para os jogadores do Flamengo
-            </Button>
+     
     </View>
   );
 };
+
 
 const styles = StyleSheet.create({
   container: {
@@ -167,9 +166,21 @@ const styles = StyleSheet.create({
     fontSize: 10,
     color: 'black',
   },
+   backButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 10,
+    marginLeft: 10
+  },
+   backText: {
+    color: '#007AFF',
+    fontSize: 16,
+    marginLeft: 5
+  }
 });
 
 export default App;
+
 
 
 

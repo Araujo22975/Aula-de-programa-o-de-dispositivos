@@ -15,7 +15,7 @@ const LoginScreen = ({ navigation }) => {
 
     // Simulação de login bem-sucedido
     // Na prática, você faria uma chamada à API aqui
-    navigation.navigate('', {
+    navigation.navigate('PerfilSocio', {
       usuario: {
         nome: 'Torcedor Rubro-Negro',
         email: email,
